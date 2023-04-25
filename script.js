@@ -10,8 +10,8 @@ const mAngkut = document.querySelector('.m-angkut');
 menus.forEach(function(tombol){
     tombol.addEventListener('click', function(e){
         if (e.target.innerText == 'Pengumpulan'){
-        container.style.display = 'none';
-        containerKumpul.style.display='block';
+        containerMenu.style.display = 'none';
+        containerKumpul.style.display = 'block';
         }
     })
 })

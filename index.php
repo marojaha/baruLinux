@@ -22,7 +22,6 @@
         <button class="m-kumpul">Sampah</button>
         <button class="m-kumpul">Limbah Cair</button>
         <button class="m-kumpul">Limbah B3</button>
-        <button>Limbah B3</button>
       </div>  
       <div class="container-angkut">
         <button class="m-angkut">Sampah</button>
