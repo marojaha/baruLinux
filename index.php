@@ -11,16 +11,19 @@
    
     <div class="container">
       <p id="judulLogin">Login</p>
-      <div class="form-container">
-        <input type="text" id="userName" placeholder="User Name">
-        <input type="password" id="password" placeholder="Password">
-      </div>
-      <div class="controller">
-        <button id="cancel">Cancel</button>
-        <button id="login">Login</button>
-      </div>
-
+      <form action="">
+        <div class="form-container">
+          <input type="text" id="userName" placeholder="User Name">
+          <input type="password" id="password" placeholder="Password">
+        </div>
+        <div class="controller">
+          <button id="cancel">Cancel</button>
+          <button id="login">Login</button>
+        </div>
+      </form>
     </div>
+
+
     <script src="script.js" ></script>
 </body>
 </html>
