@@ -8,26 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Selamat Datang di Linux</h1>
+   
     <div class="container">
-      <div class="container-menu">
-      <button class="menu">Pengumpulan</button>
-      <button class="menu">Pembakaran</button>
-      <button class="menu">Pemilahan</button>
-      <button class="menu">Meteran</button>
-      <button class="menu">Pengangkutan</button>
-      <button class="menu">Ph Air</button>
+      <p id="judulLogin">Login</p>
+      <div class="form-container">
+        <input type="text" id="userName" placeholder="User Name">
+        <input type="password" id="password" placeholder="Password">
       </div>
-      <div class="container-kumpul">
-        <button class="m-kumpul">Sampah</button>
-        <button class="m-kumpul">Limbah Cair</button>
-        <button class="m-kumpul">Limbah B3</button>
-      </div>  
-      <div class="container-angkut">
-        <button class="m-angkut">Sampah</button>
-        <button class="m-angkut">Limbah B3</button>
+      <div class="controller">
+        <button id="cancel">Cancel</button>
+        <button id="login">Login</button>
+      </div>
 
-      </div> 
     </div>
     <script src="script.js" ></script>
 </body>

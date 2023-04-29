@@ -3,15 +3,41 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: rgb(196, 191, 191);
+    padding: 15px;
 }
-.container-menu {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    gap: 10px;
+
+.form-container {
+    color: white;
 }
-.container-kumpul {
-    display: none;
+
+input {
+    display: block;
+    margin-top: 15px;
 }
-.container-angkut {
-    display: none;
+
+.controller {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#judulLogin {
+    color: blue;
+    text-align: center;
+    font-size: .6cm
+}
+
+#cancel {
+    background: red;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+
+#login {
+    background: green;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid yellowgreen;
 }
